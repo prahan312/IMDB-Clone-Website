@@ -1,0 +1,106 @@
+.header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+}
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+
+}
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover {
+    color: red;
+    dackgound-color: white;
+}
+
+.header__icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
+
+.search-container {
+    display: flex;
+  }
+  
+  .search-input {
+    color: white;
+    background-color: black;
+    flex: 1; /* Take up remaining space */
+    padding: 10px; /* Padding inside the input field */
+    border: 1px solid #ccc; /* Border around the input field */
+    border-radius: 5px 0 0 5px; /* Rounded corners (left side only) */
+    font-size: 16px; /* Font size */
+  }
+  
+  .search-button {
+    background-color: black; /* Button background color */
+    border: none; /* Remove button border */
+    padding: 10px; /* Padding around the button */
+    border-radius: 0 5px 5px 0; /* Rounded corners (right side only) */
+    cursor: pointer; /* Cursor style on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .search-button:hover {
+    background-color: black; /* Darker background color on hover */
+  }
+  
+  /* Adjust the size and color of the search icon */
+  .search-button i {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .profile-dropdown {
+    position: relative;
+  }
+  
+  .profile-icon {
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown-item:hover {
+    color: red;
+  }
+  .dropdown-item span {
+    margin-right: 10px;
+  }
+  
+  /* Adjust styles for the icons */
+  .dropdown-item svg {
+    margin-right: 8px;
+  }
+  
